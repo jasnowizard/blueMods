@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "bluemods",
+  "version": "${version}",
+  "name": "BlueMods",
+  "description": "the blue modiest mods",
+  "authors": [
+    "Blizzardry"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/bluemods/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.jasnowizard.BlueMods"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "bluemods.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*"
+  }
+}
